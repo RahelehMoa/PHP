@@ -12,20 +12,26 @@
     $A = " <h1>i work on php</h1>";
     echo $A ;
     echo "<br>";
-    $Number = 500 ;
-    echo $Number ;
+    $int = 500 ;
+    echo $int ;
     echo "<br>";
-    $Numberh1= "<h1>1000</h1>" ;
-    echo $Numberh1 ;
+    $Number= "<h1>1000</h1>" ;
+    echo $Number ;
     echo "<br>";
     $float = 55.5 ;
     echo $float ;
     echo "<br>";
-    var_dump ($Number);
+    $boolean = true ;
+    echo $boolean ;
+    echo "<br>";
+    var_dump ($float);
+    echo "<br>";
+    var_dump ($A);
 
 
 ?> 
 <!-- echo is for print of text, number or everythings -->
+<!-- Tag <br> is a space to next line -->
 <!-- $ is a sign / mark that is always used before of putting a variable. -->
 <!-- variables are of A-Z after that we put numbers of 0-9 -->
 <!-- Integer or Numbers shch as 50 , 400 shows alone but String and letters shows into " " -->
