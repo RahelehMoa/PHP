@@ -27,6 +27,8 @@
     var_dump ($float);
     echo "<br>";
     var_dump ($A);
+    echo "<br>";
+    var_dump ($boolean);
 
 
 ?> 
