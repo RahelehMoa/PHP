@@ -15,8 +15,14 @@
     $Number = 500 ;
     echo $Number ;
     echo "<br>";
-    $Number = "<h1>1000</h1>" ;
-    echo $Number ;
+    $Numberh1= "<h1>1000</h1>" ;
+    echo $Numberh1 ;
+    echo "<br>";
+    $float = 55.5 ;
+    echo $float ;
+    echo "<br>";
+    var_dump ($Number);
+
 
 ?> 
 <!-- echo is for print of text, number or everythings -->
@@ -24,6 +30,7 @@
 <!-- variables are of A-Z after that we put numbers of 0-9 -->
 <!-- Integer or Numbers shch as 50 , 400 shows alone but String and letters shows into " " -->
 <!-- If we use of Tages H1 - H6 then we have to shows into " " -->
+<!-- Data Type is known with var_dump ($variable) in php automatically  -->
 
 
 
