@@ -16,6 +16,12 @@ $i = 10;
 // $i++ ; 
 // $i-- ;
 // echo $i;
+
+$name = "Raheleh";
+$lastname = "Moallemi";
+// echo $name;
+// echo $name . $lastname ;
+echo $name . " " . $lastname ;
    
     
 
