@@ -23,6 +23,8 @@ $lastname = "Moallemi";
 
 // Concatenate : 
 // echo $name . $lastname ;
+
+// with space that is " " :
 // echo $name . " " . $lastname ;
 
 // code HTML:
@@ -30,6 +32,11 @@ $lastname = "Moallemi";
 
 //code HTML + CSS:
 echo "<h1 style = 'color: green;'>" . $name . " " . $lastname . "</h1>" ; 
+echo "<h1 style = 'color: red;'>  $name" . " " . "$lastname  </h1>" ; 
+
+//echo + $variable + "" :
+//echo "$name";
+
     
 
 ?> 
