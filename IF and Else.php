@@ -18,6 +18,11 @@ The desired commands if the condition is met.
 // && that is And.
 // || that is or.
 // != that is not Equal
+// > that is greater
+// < that is smaller 
+// <= that is smaler and equal 
+// >= that is greater and Equal
+// <> that is not Equal.
 
 $user = "Raheleh";
 $pass = "123";
@@ -32,9 +37,7 @@ $number = 10;
 //  if ($number >= 10)
 //  if ($number <= 10)
 
-
-
-if ($number <> 10)
+/*if ($number <> 10)
 {
 
 echo "yes";
@@ -45,13 +48,36 @@ else{
  
     echo "no";
 
-} 
+}
+    */
+    
+    
+if ($number <> 10)
+    
+   {
+    
+    echo "yes";
+    
+    }
+    
+elseif($user == "Amir")
 
+     {
 
+      echo $user;
+
+      }
+
+    else{
+     
+        echo "no";
+    
+    } 
+/* Note: when one condition is met that is shown otherwise it will go next condition .
+ at the end , when all condition no met that is shown end condition. */
     
 
 ?> 
-
 
 
 
