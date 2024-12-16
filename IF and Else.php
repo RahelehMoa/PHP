@@ -14,7 +14,7 @@ The desired commands if the condition is met.
 
 */
 
-// == that is Equal.
+// == that is Equal that shows checking.
 // && that is And.
 // || that is or.
 // != that is not Equal
