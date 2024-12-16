@@ -4,7 +4,7 @@
 
     
 /*
-if (If this condition were met. )
+if (If this condition is met. )
 
 {
 
@@ -18,7 +18,7 @@ The desired commands if the condition is met.
 $user = "Raheleh";
 $pass = "123";
 
-if ($user == "Raheleh")
+if ($user == "Raheleh" && $pass == "1234")
 
 {
 
