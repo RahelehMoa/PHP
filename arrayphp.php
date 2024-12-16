@@ -16,6 +16,8 @@
 
 <!-- var_dump ($arr ); that is for reading/ showing a full array  -->
 
+<!-- when you want to use integer , string , float together then you have to use of array / Arayeh  -->
+
 
 
 
