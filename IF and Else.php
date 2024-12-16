@@ -3,14 +3,34 @@
 <?php
 
     
-$math1 = 100;
-$math2 = 200;
+/*
+if (If this condition were met. )
 
-// $math = $math1 + $math2;
+{
+
+The desired commands if the condition is met.
+
+}
+
+*/
 
 
-echo "<h1 style = 'color: green;'>" . $name . " " . $lastname . "</h1>" ; 
-echo "<h1 style = 'color: red;'>  $name" . " " . "$lastname  </h1>" ; 
+$user = "Raheleh";
+$pass = "123";
+
+if ($user == "Raheleh")
+
+{
+
+echo "yes";
+
+}
+
+else{
+ 
+    echo "no";
+
+} 
 
 
     
