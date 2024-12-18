@@ -8,7 +8,7 @@
  include_once ('Function1.php');
 
  test () ;
- 
+ add (50 , 30 );
     
 
 ?> 
