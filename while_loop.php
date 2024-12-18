@@ -1,16 +1,18 @@
 
 
-<?php
+<?php 
 
      $i = 1;
 
-     while ( $i < 10  ) : 
+     while ( $i < 10  ) {
 
-     ?> 
+      echo "<option value = \"1000\"> $i </option>";
 
-   <option value = \"1000\"> <?php echo $i; ?> </option>
-      
-   <?php $i++; endwhile; ?>
+         $i++;
+}
+
+?> 
+
 
 
 
