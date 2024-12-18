@@ -2,10 +2,9 @@
 
 <?php
 
- function test ()   
- {
-
-    echo " دوره آموزشی php  "
+ function test ()  {
+    
+   echo " دوره آموزشی php ";
  }
 
     
